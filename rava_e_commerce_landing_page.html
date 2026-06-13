@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAVA E-commerce | Variedades de A a Z no Mercado Livre e Shopee</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#0f2c59',
+                        brandBlueDark: '#071630',
+                        brandYellow: '#fcc013',
+                        brandYellowHover: '#e5ad0b',
+                        miliYellow: '#fff159', // Mercado Livre
+                        shopeeOrange: '#ee4d2d', // Shopee
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0f2c59;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #071630;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Cabeçalho -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="#" class="flex flex-col">
+                    <span class="text-2xl font-extrabold text-brandBlue tracking-tight">RAVA</span>
+                    <span class="text-xs font-bold text-brandYellow uppercase tracking-wider -mt-1">E-commerce</span>
+                </a>
+                
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-slate-600 hover:text-brandBlue font-semibold transition-colors">Início</a>
+                    <a href="#produtos" class="text-slate-600 hover:text-brandBlue font-semibold transition-colors">Produtos</a>
+                    <a href="#calculadora" class="text-slate-600 hover:text-brandBlue font-semibold transition-colors">Simulador de Lucro</a>
+                    <a href="#marketplaces" class="text-slate-600 hover:text-brandBlue font-semibold transition-colors">Nossas Lojas</a>
+                    <a href="#historia" class="text-slate-600 hover:text-brandBlue font-semibold transition-colors">História</a>
+                    <a href="#contato" class="text-slate-600 hover:text-brandBlue font-semibold transition-colors">Fale Conosco</a>
+                </nav>
+
+                <div class="flex items-center space-x-2">
+                    <a href="#marketplaces" class="bg-brandBlue text-white px-5 py-2.5 rounded-lg font-bold text-sm hover:bg-brandBlueDark transition-all shadow-md hover:-translate-y-0.5">
+                        Ir para as Lojas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative overflow-hidden bg-gradient-to-br from-brandBlue to-brandBlueDark text-white py-20 lg:py-32">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fcc013_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-flex items-center gap-1.5 py-1.5 px-4 rounded-full text-xs font-bold bg-brandYellow/10 text-brandYellow border border-brandYellow/30 mb-6 uppercase tracking-wider">
+                Utilidades, Tecnologia, Moda e muito mais!
+            </span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                Variedade de <span class="text-brandYellow text-transparent bg-clip-text bg-gradient-to-r from-brandYellow to-amber-300">A a Z</span> <br class="hidden sm:inline">com a segurança que você já confia.
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+                A RAVA E-commerce leva os melhores produtos utilitários e novidades direto para a sua casa através das maiores plataformas do Brasil. Escolha onde prefere comprar!
+            </p>
+
+            <!-- Botões de Redirecionamento de Lojas -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-xl mx-auto">
+                <!-- Botão Mercado Livre -->
+                <a href="https://www.mercadolivre.com.br" target="_blank" class="w-full sm:w-1/2 flex items-center justify-center gap-3 bg-miliYellow text-slate-900 font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                    <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 10c.8 0 1.5-.7 1.5-1.5S17.8 7 17 7s-1.5.7-1.5 1.5.7 1.5 1.5 1.5z" fill="#2D3748"/>
+                        <path d="M8 14s1.5-2 4-2 4 2 4 2" stroke="#2D3748" stroke-width="2" stroke-linecap="round"/>
+                        <rect x="2" y="4" width="20" height="16" rx="4" stroke="#2D3748" stroke-width="2"/>
+                    </svg>
+                    Comprar no Mercado Livre
+                </a>
+
+                <!-- Botão Shopee -->
+                <a href="https://shopee.com.br/laisavitoria770?entryPoint=ShopBySearch&searchKeyword=rava%20e%20commerce" target="_blank" class="w-full sm:w-1/2 flex items-center justify-center gap-3 bg-shopeeOrange text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                    <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12z"/>
+                        <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+                    </svg>
+                    Comprar na Shopee
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Departamentos / Produtos -->
+    <section id="produtos" class="py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandYellow font-extrabold text-sm uppercase tracking-wider block mb-3">Nosso Catálogo Multicategoria</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-brandBlue">Um Universo de Opções Para Você</h2>
+                <p class="text-slate-600 mt-4 text-lg">
+                    Do acessório tecnológico que facilita sua rotina até as utilidades domésticas indispensáveis. Explore as categorias que fazem sucesso em nossas lojas.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Categoria 1 -->
+                <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="bg-brandBlue/5 h-48 flex items-center justify-center border-b border-slate-100">
+                            <svg class="w-16 h-16 text-brandBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold text-amber-500 uppercase tracking-widest block mb-2">Casa & Utilidades</span>
+                            <h3 class="text-xl font-bold text-brandBlue mb-3">Praticidade no Lar</h3>
+                            <p class="text-slate-600 text-sm">Organizadores modernos, utensílios de cozinha inovadores e itens decorativos selecionados para otimizar sua rotina.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-green-50 text-green-700 rounded border border-green-200">Pronta Entrega</span>
+                        <a href="#marketplaces" class="text-sm font-bold text-brandBlue hover:text-brandYellow transition-colors flex items-center gap-1">Ver Ofertas &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Categoria 2 -->
+                <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="bg-brandBlue/5 h-48 flex items-center justify-center border-b border-slate-100">
+                            <svg class="w-16 h-16 text-brandBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold text-amber-500 uppercase tracking-widest block mb-2">Tecnologia & Gadgets</span>
+                            <h3 class="text-xl font-bold text-brandBlue mb-3">Eletrônicos do Dia a Dia</h3>
+                            <p class="text-slate-600 text-sm">Carregadores rápidos, adaptadores inteligentes, fones sem fio de alta fidelidade e suportes funcionais para o trabalho.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-green-50 text-green-700 rounded border border-green-200">Garantia Inclusa</span>
+                        <a href="#marketplaces" class="text-sm font-bold text-brandBlue hover:text-brandYellow transition-colors flex items-center gap-1">Ver Ofertas &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Categoria 3 -->
+                <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="bg-brandBlue/5 h-48 flex items-center justify-center border-b border-slate-100">
+                            <svg class="w-16 h-16 text-brandBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold text-amber-500 uppercase tracking-widest block mb-2">Variedades Gerais</span>
+                            <h3 class="text-xl font-bold text-brandBlue mb-3">Tendências & Diversos</h3>
+                            <p class="text-slate-600 text-sm">Acessórios automotivos, itens de papelaria criativa, novidades virais das redes sociais e ferramentas versáteis.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-green-50 text-green-700 rounded border border-green-200">Novidades</span>
+                        <a href="#marketplaces" class="text-sm font-bold text-brandBlue hover:text-brandYellow transition-colors flex items-center gap-1">Ver Ofertas &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Calculadora de Vendas, Juros e Lucros -->
+    <section id="calculadora" class="py-16 bg-gradient-to-b from-white to-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-brandYellow font-extrabold text-sm uppercase tracking-wider block mb-3">Simulador de Custos e Margens</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-brandBlue">Calculadora de Precificação & Lucro</h2>
+                <p class="text-slate-600 mt-4 text-lg">
+                    Calcule com precisão as taxas do **Mercado Livre** e da **Shopee**, inclua juros/impostos e defina o preço perfeito para garantir lucro máximo.
+                </p>
+            </div>
+
+            <!-- Card Principal da Calculadora -->
+            <div class="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12">
+                
+                <!-- Coluna de Inputs (8 Colunas) -->
+                <div class="lg:col-span-7 p-6 sm:p-10 border-r border-slate-100">
+                    
+                    <!-- Abas de Modo -->
+                    <div class="flex bg-slate-100 p-1 rounded-xl mb-8">
+                        <button id="tab-profit" onclick="setCalcMode('profit')" class="w-1/2 text-center py-2.5 rounded-lg font-bold text-sm transition-all bg-white text-brandBlue shadow-sm">
+                            Descobrir Lucro Real
+                        </button>
+                        <button id="tab-price" onclick="setCalcMode('price')" class="w-1/2 text-center py-2.5 rounded-lg font-bold text-sm text-slate-500 hover:text-brandBlue transition-all">
+                            Calcular Preço Ideal
+                        </button>
+                    </div>
+
+                    <div class="space-y-6">
+                        <!-- Selecionar Plataforma -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Canal de Venda / Marketplace</label>
+                            <select id="calc-platform" onchange="runCalculation()" class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                <option value="ml-classico">Mercado Livre - Clássico (12.5% + Taxa Fixa)</option>
+                                <option value="ml-premium">Mercado Livre - Premium (Sem Juros p/ Comprador: 17.5% + Taxa Fixa)</option>
+                                <option value="shopee-padrao">Shopee - Padrão (14% comissão + 2% transação + R$ 4,00)</option>
+                                <option value="shopee-frete">Shopee - C/ Programa Frete Grátis (+6% de taxa de frete)</option>
+                                <option value="custom">Outros Canais (Personalizado)</option>
+                            </select>
+                        </div>
+
+                        <!-- Grid de Valores Básicos -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-bold text-slate-700 mb-2">Custo do Produto (Compra)</label>
+                                <div class="relative">
+                                    <span class="absolute left-4 top-3.5 text-slate-400 font-medium">R$</span>
+                                    <input type="number" id="calc-cost" value="50.00" step="0.01" oninput="runCalculation()" class="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                </div>
+                            </div>
+
+                            <!-- Input Dinâmico conforme a Aba -->
+                            <div id="dynamic-input-container">
+                                <label id="dynamic-label" class="block text-sm font-bold text-slate-700 mb-2">Preço de Venda Praticado</label>
+                                <div class="relative">
+                                    <span id="dynamic-symbol" class="absolute left-4 top-3.5 text-slate-400 font-medium">R$</span>
+                                    <input type="number" id="calc-dynamic-value" value="120.00" step="0.01" oninput="runCalculation()" class="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Opções Adicionais e Juros -->
+                        <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 space-y-4">
+                            <h4 class="font-bold text-brandBlue text-sm uppercase tracking-wider mb-2">Custos Logísticos & Impostos</h4>
+                            
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Custo de Envio / Frete (pago por você)</label>
+                                    <div class="relative">
+                                        <span class="absolute left-3.5 top-2 text-slate-400 font-medium text-sm">R$</span>
+                                        <input type="number" id="calc-shipping" value="0.00" step="0.01" oninput="runCalculation()" class="w-full pl-9 pr-3 py-2 text-sm border border-slate-200 rounded-lg focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Alíquota de Imposto (Simples, etc)</label>
+                                    <div class="relative">
+                                        <span class="absolute right-3 top-2 text-slate-400 font-medium text-sm">%</span>
+                                        <input type="number" id="calc-taxes-pct" value="4.0" step="0.1" oninput="runCalculation()" class="w-full pl-3 pr-8 py-2 text-sm border border-slate-200 rounded-lg focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Campos customizados ocultos por padrão -->
+                            <div id="custom-fields" class="hidden grid grid-cols-1 sm:grid-cols-2 gap-4 pt-3 border-t border-slate-200">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Taxa de Comissão (%)</label>
+                                    <input type="number" id="calc-custom-comm" value="15.0" step="0.1" oninput="runCalculation()" class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Taxa Fixa por Venda (R$)</label>
+                                    <input type="number" id="calc-custom-fixed" value="5.00" step="0.01" oninput="runCalculation()" class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue focus:outline-none transition-all">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Coluna de Resultados (5 Colunas) -->
+                <div class="lg:col-span-5 bg-gradient-to-br from-brandBlue to-brandBlueDark text-white p-6 sm:p-10 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-extrabold text-brandYellow tracking-widest uppercase block mb-2">Relatório do Simulador</span>
+                        <h3 class="text-2xl font-black mb-6">Resultados Obtidos</h3>
+
+                        <div class="space-y-4">
+                            <!-- Preço de Venda Definido/Projetado -->
+                            <div class="flex justify-between items-center py-2.5 border-b border-slate-700">
+                                <span class="text-sm text-slate-300 font-medium">Preço de Venda:</span>
+                                <span id="res-sale-price" class="font-extrabold text-lg text-brandYellow">R$ 120,00</span>
+                            </div>
+
+                            <!-- Custos e Impostos -->
+                            <div class="flex justify-between items-center py-2.5 border-b border-slate-700">
+                                <span class="text-sm text-slate-300 font-medium">Custo do Produto:</span>
+                                <span id="res-product-cost" class="font-bold text-slate-100">R$ 50,00</span>
+                            </div>
+
+                            <div class="flex justify-between items-center py-2.5 border-b border-slate-700">
+                                <span class="text-sm text-slate-300 font-medium">Taxas do Canal (ML/Shopee):</span>
+                                <span id="res-platform-fees" class="font-bold text-red-300">R$ 21,00</span>
+                            </div>
+
+                            <div class="flex justify-between items-center py-2.5 border-b border-slate-700">
+                                <span class="text-sm text-slate-300 font-medium">Logística (Frete pago):</span>
+                                <span id="res-shipping-cost" class="font-bold text-red-300">R$ 0,00</span>
+                            </div>
+
+                            <div class="flex justify-between items-center py-2.5 border-b border-slate-700">
+                                <span class="text-sm text-slate-300 font-medium font-semibold">Imposto Retido:</span>
+                                <span id="res-taxes-val" class="font-bold text-red-300">R$ 4,80</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloco de Lucro Final -->
+                    <div class="mt-8 pt-6 border-t border-slate-700">
+                        <div class="bg-brandBlueDark/50 p-6 rounded-2xl border border-slate-700/50 text-center relative overflow-hidden">
+                            <span class="text-xs font-bold text-slate-400 block uppercase tracking-wider mb-1">Lucro Líquido Estimado</span>
+                            <div id="res-net-profit" class="text-3xl sm:text-4xl font-black text-brandYellow mb-2">R$ 44,20</div>
+                            
+                            <div class="flex justify-around text-xs font-bold text-slate-300 mt-3 pt-3 border-t border-slate-700/30">
+                                <div>
+                                    <span class="block text-slate-400">Margem</span>
+                                    <span id="res-margin-pct" class="text-sm text-emerald-400 font-extrabold">36.8%</span>
+                                </div>
+                                <div>
+                                    <span class="block text-slate-400">Retorno (ROI)</span>
+                                    <span id="res-roi-pct" class="text-sm text-emerald-400 font-extrabold">88.4%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Diferenciais/Lojas -->
+    <section id="marketplaces" class="py-16 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandYellow font-extrabold text-sm uppercase tracking-wider block mb-3">Onde nos encontrar</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-brandBlue">Nossas Lojas Oficiais</h2>
+                <p class="text-slate-600 mt-4 text-lg">
+                    Comprar da RAVA nos marketplaces traz a você a tranquilidade de transações criptografadas e a agilidade nas entregas. Escolha sua plataforma favorita!
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+                <!-- Card Mercado Livre Detalhes -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-md flex flex-col justify-between hover:shadow-lg transition-shadow">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="bg-miliYellow p-3 rounded-xl">
+                                <svg class="w-10 h-10 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-black text-slate-800">Mercado Livre</h3>
+                                <p class="text-sm text-slate-500 font-medium">Envio ultra rápido via Mercado Envios</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-slate-600">
+                            <li class="flex items-center gap-2">
+                                <svg class="w-5 h-5 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Frete grátis ou descontos especiais em milhares de itens
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <svg class="w-5 h-5 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Compra protegida: receba o produto ou seu dinheiro de volta
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <svg class="w-5 h-5 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Parcelamento facilitado sem juros em produtos selecionados
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://www.mercadolivre.com.br" target="_blank" class="w-full text-center bg-miliYellow hover:bg-amber-400 text-slate-900 font-bold py-3.5 px-6 rounded-xl transition-colors shadow">
+                        Visitar Loja Mercado Livre
+                    </a>
+                </div>
+
+                <!-- Card Shopee Detalhes -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-md flex flex-col justify-between hover:shadow-lg transition-shadow">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="bg-shopeeOrange/10 p-3 rounded-xl">
+                                <svg class="w-10 h-10 text-shopeeOrange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-black text-slate-800">Shopee</h3>
+                                <p class="text-sm text-slate-500 font-medium">Os melhores cupons e frete reduzido</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-slate-600">
+                            <li class="flex items-center gap-2">
+                                <svg class="w-5 h-5 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Aproveite seus cupons de Frete Grátis diretamente em nossa loja
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <svg class="w-5 h-5 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Garantia Shopee: pagamento retido até você receber e aprovar o produto
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <svg class="w-5 h-5 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Moedas Shopee de volta em compras qualificadas
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://shopee.com.br/laisavitoria770?entryPoint=ShopBySearch&searchKeyword=rava%20e%20commerce" target="_blank" class="w-full text-center bg-shopeeOrange hover:bg-[#df3d1e] text-white font-bold py-3.5 px-6 rounded-xl transition-colors shadow">
+                        Visitar Loja Shopee
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção História -->
+    <section id="historia" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7">
+                    <span class="text-brandYellow font-extrabold text-sm uppercase tracking-wider block mb-3">Conheça Nossa Origem</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-brandBlue mb-6 leading-snug">
+                        RAVA E-commerce: Conectando Necessidades a Soluções Inteligentes
+                    </h2>
+                    <p class="text-slate-600 text-lg mb-4 leading-relaxed">
+                        A RAVA surgiu com um propósito simples, mas ousado: mapear o que há de melhor em variedades globais de A a Z e disponibilizar de forma prática e segura nos principais canais onde o brasileiro já realiza suas compras.
+                    </p>
+                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                        Entendemos que, ao comprar na Shopee ou no Mercado Livre, você busca confiabilidade, velocidade e preços justos. Por isso, nossa equipe trabalha dia e noite na curadoria minuciosa dos produtos, embalagem impecável e envio rápido, garantindo que sua experiência em marketplace seja sempre nota máxima.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6 pt-4 border-t border-slate-100">
+                        <div>
+                            <span class="block text-3xl font-black text-brandBlue">100%</span>
+                            <span class="text-sm text-slate-500 font-medium">De satisfação no atendimento</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-black text-brandBlue">Envio 24h</span>
+                            <span class="text-sm text-slate-500 font-medium">Para a grande maioria dos pedidos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 bg-slate-50 p-8 rounded-2xl border border-slate-200">
+                    <h3 class="text-xl font-bold text-brandBlue mb-4">Por que comprar com a RAVA?</h3>
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <span class="bg-brandYellow/10 text-brandYellow p-2 rounded-lg font-bold h-fit">A-Z</span>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Catálogo Infinito</h4>
+                                <p class="text-sm text-slate-500">Mapeamos as maiores tendências de decoração, gadgets, cosméticos e ferramentas úteis do momento.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="bg-brandYellow/10 text-brandYellow p-2 rounded-lg font-bold h-fit">🚚</span>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Logística Parceira</h4>
+                                <p class="text-sm text-slate-500">Utilizamos a infraestrutura direta dos centros de distribuição do Mercado Livre e parceiros Shopee.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="bg-brandYellow/10 text-brandYellow p-2 rounded-lg font-bold h-fit">💬</span>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Suporte Dedicado</h4>
+                                <p class="text-sm text-slate-500">Qualquer contratempo é resolvido rapidamente através da nossa central interna ou do chat das plataformas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Fale Conosco -->
+    <section id="contato" class="py-16 lg:py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandYellow font-extrabold text-sm uppercase tracking-wider block mb-3">Canal de Atendimento</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-brandBlue">Alguma Dúvida? Fale Conosco!</h2>
+                <p class="text-slate-600 mt-4 text-lg">
+                    Seja sobre um produto específico, dúvidas sobre devolução ou suporte pós-compra, envie sua mensagem e nossa equipe responderá em breve.
+                </p>
+            </div>
+
+            <div class="max-w-xl mx-auto">
+                <form id="rava-contact" class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                    <div>
+                        <label for="nome" class="block text-sm font-bold text-slate-700 mb-2">Seu Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" required class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue transition-all">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-bold text-slate-700 mb-2">Seu Endereço de E-mail</label>
+                        <input type="email" id="email" placeholder="nome@exemplo.com" required class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue transition-all">
+                    </div>
+
+                    <div>
+                        <label for="mensagem" class="block text-sm font-bold text-slate-700 mb-2">Em que podemos ajudar?</label>
+                        <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brandBlue/20 focus:border-brandBlue transition-all"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brandBlue text-white font-bold py-4 rounded-xl hover:bg-brandBlueDark transition-colors shadow-md flex items-center justify-center gap-2">
+                        <span>Enviar Mensagem</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+
+                    <div id="status-msg" class="text-center font-semibold text-emerald-600 hidden py-3 bg-emerald-50 rounded-xl border border-emerald-200"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-brandBlueDark text-slate-400 py-12 border-t-4 border-brandYellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <div class="flex flex-col items-center">
+                <span class="text-2xl font-black text-white tracking-tight">RAVA</span>
+                <span class="text-xs font-bold text-brandYellow uppercase tracking-widest">E-commerce</span>
+            </div>
+            
+            <p class="max-w-lg mx-auto text-sm">
+                Conectando você às melhores novidades, utilidades e itens diversos de A a Z. Visite nossas lojas oficiais no Mercado Livre e Shopee.
+            </p>
+
+            <div class="flex justify-center gap-6 text-sm font-medium">
+                <a href="#produtos" class="hover:text-white transition-colors">Categorias</a>
+                <a href="#marketplaces" class="hover:text-white transition-colors">Mercado Livre</a>
+                <a href="#marketplaces" class="hover:text-white transition-colors">Shopee</a>
+                <a href="#contato" class="hover:text-white transition-colors">Atendimento</a>
+            </div>
+
+            <p class="text-xs text-slate-500 pt-6 border-t border-slate-800">
+                &copy; 2026 RAVA E-commerce. Todos os direitos reservados. Isenção de responsabilidade: As logomarcas Mercado Livre e Shopee pertencem aos seus respectivos proprietários.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Variável de controle do modo de cálculo: 'profit' (Lucro) ou 'price' (Preço de Venda ideal)
+        let calcMode = 'profit';
+
+        // Altera a aba ativa e reestrutura as labels e placeholders
+        function setCalcMode(mode) {
+            calcMode = mode;
+            
+            const btnProfit = document.getElementById('tab-profit');
+            const btnPrice = document.getElementById('tab-price');
+            const dynamicLabel = document.getElementById('dynamic-label');
+            const dynamicValue = document.getElementById('calc-dynamic-value');
+            const dynamicSymbol = document.getElementById('dynamic-symbol');
+
+            if (mode === 'profit') {
+                btnProfit.classList.add('bg-white', 'text-brandBlue', 'shadow-sm');
+                btnProfit.classList.remove('text-slate-500');
+                btnPrice.classList.remove('bg-white', 'text-brandBlue', 'shadow-sm');
+                btnPrice.classList.add('text-slate-500');
+
+                dynamicLabel.textContent = 'Preço de Venda Praticado';
+                dynamicValue.value = '120.00';
+                dynamicSymbol.textContent = 'R$';
+            } else {
+                btnPrice.classList.add('bg-white', 'text-brandBlue', 'shadow-sm');
+                btnPrice.classList.remove('text-slate-500');
+                btnProfit.classList.remove('bg-white', 'text-brandBlue', 'shadow-sm');
+                btnProfit.classList.add('text-slate-500');
+
+                dynamicLabel.textContent = 'Lucro Líquido Desejado';
+                dynamicValue.value = '30.00';
+                dynamicSymbol.textContent = 'R$';
+            }
+            
+            runCalculation();
+        }
+
+        // Executa todas as fórmulas financeiras com base nas regras de negócio das plataformas
+        function runCalculation() {
+            const cost = parseFloat(document.getElementById('calc-cost').value) || 0;
+            const platform = document.getElementById('calc-platform').value;
+            const shipping = parseFloat(document.getElementById('calc-shipping').value) || 0;
+            const taxesPct = parseFloat(document.getElementById('calc-taxes-pct').value) || 0;
+            const customFields = document.getElementById('custom-fields');
+            
+            // Exibir campos extras se a plataforma for customizada
+            if (platform === 'custom') {
+                customFields.classList.remove('hidden');
+            } else {
+                customFields.classList.add('hidden');
+            }
+
+            let commissionPct = 0;
+            let fixedItemFee = 0;
+
+            // Definição das taxas das plataformas brasileiras
+            switch (platform) {
+                case 'ml-classico':
+                    commissionPct = 12.5;
+                    // Mercado Livre cobra taxa fixa de R$ 6.00 por unidade se o preço for abaixo de R$ 79
+                    break;
+                case 'ml-premium':
+                    commissionPct = 17.5; // Premium oferece parcelamento sem juros ao comprador
+                    break;
+                case 'shopee-padrao':
+                    commissionPct = 16.0; // 14% comissão + 2% transacional padrão
+                    fixedItemFee = 4.00;  // Taxa fixa da Shopee por item vendido
+                    break;
+                case 'shopee-frete':
+                    commissionPct = 22.0; // 14% padrão + 2% transacional + 6% programa de frete grátis
+                    fixedItemFee = 4.00;
+                    break;
+                case 'custom':
+                    commissionPct = parseFloat(document.getElementById('calc-custom-comm').value) || 0;
+                    fixedItemFee = parseFloat(document.getElementById('calc-custom-fixed').value) || 0;
+                    break;
+            }
+
+            let finalSalePrice = 0;
+            let finalNetProfit = 0;
+            let finalPlatformFees = 0;
+            let finalTaxes = 0;
+
+            if (calcMode === 'profit') {
+                // MODO 1: Descobrir o Lucro baseado no preço de venda fornecido
+                finalSalePrice = parseFloat(document.getElementById('calc-dynamic-value').value) || 0;
+                
+                // Calcula taxa fixa condicional do Mercado Livre (produtos < R$ 79 pagam R$ 6.00 adicionais)
+                let appliedFixedFee = fixedItemFee;
+                if ((platform === 'ml-classico' || platform === 'ml-premium') && finalSalePrice < 79) {
+                    appliedFixedFee = 6.00;
+                }
+
+                finalPlatformFees = (finalSalePrice * (commissionPct / 100)) + appliedFixedFee;
+                finalTaxes = finalSalePrice * (taxesPct / 100);
+                
+                finalNetProfit = finalSalePrice - cost - finalPlatformFees - shipping - finalTaxes;
+
+            } else {
+                // MODO 2: Calcular Preço de Venda ideal baseado no Lucro Desejado
+                const desiredProfit = parseFloat(document.getElementById('calc-dynamic-value').value) || 0;
+                
+                // Fórmulas matemáticas reversas: Preço = (Custo + Lucro + Frete + Taxa Fixa) / (1 - %Comissão - %Imposto)
+                let testSalePrice = (cost + desiredProfit + shipping + fixedItemFee) / (1 - (commissionPct / 100) - (taxesPct / 100));
+
+                // Correção de Taxa Fixa condicional para Mercado Livre se o valor calculado for menor que R$ 79
+                if ((platform === 'ml-classico' || platform === 'ml-premium') && testSalePrice < 79) {
+                    testSalePrice = (cost + desiredProfit + shipping + 6.00) / (1 - (commissionPct / 100) - (taxesPct / 100));
+                }
+
+                finalSalePrice = testSalePrice;
+                
+                let appliedFixedFee = fixedItemFee;
+                if ((platform === 'ml-classico' || platform === 'ml-premium') && finalSalePrice < 79) {
+                    appliedFixedFee = 6.00;
+                }
+
+                finalPlatformFees = (finalSalePrice * (commissionPct / 100)) + appliedFixedFee;
+                finalTaxes = finalSalePrice * (taxesPct / 100);
+                finalNetProfit = desiredProfit;
+            }
+
+            // Tratamento contra valores negativos nas taxas ou resultados
+            if (finalSalePrice < 0) finalSalePrice = 0;
+            
+            // Margens Financeiras
+            const marginPct = finalSalePrice > 0 ? (finalNetProfit / finalSalePrice) * 100 : 0;
+            const roiPct = cost > 0 ? (finalNetProfit / cost) * 100 : 0;
+
+            // Renderizar na tela formatado como moeda brasileira (BRL)
+            document.getElementById('res-sale-price').textContent = formatCurrency(finalSalePrice);
+            document.getElementById('res-product-cost').textContent = formatCurrency(cost);
+            document.getElementById('res-platform-fees').textContent = formatCurrency(finalPlatformFees);
+            document.getElementById('res-shipping-cost').textContent = formatCurrency(shipping);
+            document.getElementById('res-taxes-val').textContent = formatCurrency(finalTaxes);
+            
+            const profitEl = document.getElementById('res-net-profit');
+            profitEl.textContent = formatCurrency(finalNetProfit);
+            
+            // Formatação de cores de acordo com o lucro
+            if (finalNetProfit > 0) {
+                profitEl.className = 'text-3xl sm:text-4xl font-black text-brandYellow mb-2';
+            } else {
+                profitEl.className = 'text-3xl sm:text-4xl font-black text-red-400 mb-2';
+            }
+
+            document.getElementById('res-margin-pct').textContent = `${marginPct.toFixed(1)}%`;
+            document.getElementById('res-roi-pct').textContent = `${roiPct.toFixed(1)}%`;
+
+            const marginEl = document.getElementById('res-margin-pct');
+            if (marginPct < 15) {
+                marginEl.className = 'text-sm text-amber-400 font-extrabold';
+            } else if (marginPct >= 15) {
+                marginEl.className = 'text-sm text-emerald-400 font-extrabold';
+            } else {
+                marginEl.className = 'text-sm text-red-400 font-extrabold';
+            }
+        }
+
+        function formatCurrency(val) {
+            return new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(val);
+        }
+
+        // Executar simulação padrão no carregamento
+        window.onload = function() {
+            runCalculation();
+        };
+
+        // Envio do formulário de contato (Fale Conosco)
+        document.getElementById('rava-contact').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const btnSubmit = this.querySelector('button[type="submit"]');
+            const statusMsg = document.getElementById('status-msg');
+            const nome = document.getElementById('nome').value;
+
+            btnSubmit.disabled = true;
+            btnSubmit.querySelector('span').textContent = 'Processando...';
+
+            setTimeout(() => {
+                btnSubmit.disabled = false;
+                btnSubmit.querySelector('span').textContent = 'Enviar Mensagem';
+
+                statusMsg.textContent = `Obrigado pelo contato, ${nome}! Nossa equipe retornará em breve.`;
+                statusMsg.classList.remove('hidden');
+
+                this.reset();
+
+                setTimeout(() => {
+                    statusMsg.classList.add('hidden');
+                }, 6000);
+
+            }, 1200);
+        });
+    </script>
+</body>
+</html>
